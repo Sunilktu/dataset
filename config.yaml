@@ -1,0 +1,26 @@
+path: .
+train: images/train
+val: images/test
+nc: 19  # number of classes
+#names: ['Bill_to_Name', 'Delivery_Date', 'Invoice_Date', 'Invoice_ID', 'Line_Item', 'Purchase_Order', 'Receiver_Address', 'Receiver_Email', 'Receiver_Name', 'Receiver_Pan_No', 'Receiver_Tax_ID', 'Ship_to_Name', 'Supplier_Address', 'Supplier_Email', 'Supplier_Name', 'Supplier_PAN_No', 'Supplier_Tax_ID', 'Total_Amount']
+
+names:
+  0: Bill_to_Name
+  1: Delivery_Date
+  2: Invoice_Date
+  3: Invoice_ID
+  4: Line_Item
+  5: Purchase_Order
+  6: Receiver_Address
+  7: Receiver_Email
+  8: Receiver_Name
+  9: Receiver_Pan_No
+  10: Receiver_Tax_ID
+  11: Ship_to_Name
+  12: Supplier_Address
+  13: Supplier_Email
+  14: Supplier_Name
+  15: Supplier_PAN_No
+  16: Supplier_Tax_ID
+  17: Total_Amount
+  18: Vendor_Invoice_Number
